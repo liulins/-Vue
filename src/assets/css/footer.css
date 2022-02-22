@@ -1,0 +1,38 @@
+.footer_anniu{font-size: 2.4rem;text-decoration: none;color: #333;margin-right: 8.6rem;position: relative;top: 5.2rem;float: left;}
+.footer_img1{width: 4rem;height: 4rem;position: absolute;top: -4rem;left: 0.4rem;}
+.footer_anniu.router-link-active{color: tomato;}
+.img2{width: 7rem;height: 7rem;border-radius: 50%;animation: zhuan 2s linear infinite;position: relative;top: -4rem;left: 1rem;}
+@keyframes zhuan{
+    0% {
+        transform: rotate(
+    0deg);
+    }
+    50% {
+        transform: rotate(
+    180deg);
+    }
+    100% {
+        transform: rotate(
+    360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
