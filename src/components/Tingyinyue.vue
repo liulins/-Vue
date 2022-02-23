@@ -3,7 +3,7 @@
         <div class="ertong">
             <div class="ertong_top">
                 <img src="src/assets/img/41.png" class="ruzhan_top_nav_img1" @click="back"/>
-                <span class="ertong_top_tit">听音乐</span>
+                <span class="ertong_top_tit">热门音乐免费听</span>
             </div>
             <div class="ertong_con">
                 <ul>
