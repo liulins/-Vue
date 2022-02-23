@@ -10,7 +10,7 @@
         <div class="play_boxx">
             <div class="swiper">
               <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="height:95rem;overflow:auto;background-image: linear-gradient(rgb(243 236 133), rgb(255 253 223), rgb(249 244 171))">
+                  <div class="swiper-slide" style="height:106rem;overflow:auto;background-image: linear-gradient(rgb(243 236 133), rgb(255 253 223), rgb(249 244 171))">
                     <div class="swiper1_bg">
                       <p class="swiper1_bg_p1">
                         <span class="swiper1_bg_p1_imgs">
@@ -94,13 +94,10 @@
                         </div>
                       </div>
                     </div>
-                  </div> 
+                  </div>  
                   <div class="swiper-slide" style="height:106rem;overflow:auto;">
-                    <div class="play_box2">
-                      <p class="play_box2_p1">
-                        <span class="play_box2_p1_span1">评论区()</span>
-                        <span class="play_box2_p1_span2">推荐 | 最新</span>
-                      </p>
+                    <div class="play_box2-2">
+                      
                       <div class="play_box2_p2">
                         <div class="play_box2_p2_1">
                           <img src="src/assets/img/ia_100000003000.webp" class="play_box2_p2_1_img"/>

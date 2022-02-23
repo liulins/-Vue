@@ -342,7 +342,7 @@ export default{
             path:'/account',
             component:Account,
             meta:{
-                TabbarShow:false  //需要显示  底部导航
+                TabbarShow:true  //需要显示  底部导航
             },
         },
     ]
