@@ -1,14 +1,13 @@
 <template id="suibian">
     <div class="suibian">
-        随便听
         <div class="ertong">
             <div class="ertong_top">
                 <img src="src/assets/img/41.png" class="ruzhan_top_nav_img1" @click="back"/>
-                <span class="ertong_top_tit">儿童故事免费听</span>
+                <span class="ertong_top_tit">随便听</span>
             </div>
             <div class="ertong_con">
                 <ul>
-                    <li class="ertong_con_li" v-for="(k,index) in arrList6" :key="index">
+                    <li class="ertong_con_li" v-for="(k,index) in arrList7" :key="index">
                         <div class="ertong_con_li_img1">
                             <img :src="k.img1" class="ertong_con_li_img2"/>
                         </div>
@@ -39,7 +38,7 @@ import {Test1} from '../request/api.js'
 export default {
     data(){
         return{
-            arrList6:[]
+            arrList7:[]
         }
     },
     mounted() {
@@ -50,8 +49,8 @@ export default {
         getData(){
             var _this = this;
             Test1().then(function(res){
-                _this.arrList6 = res.data.ertonglist1
-                // console.log(_this.arrList1)
+                _this.arrList7 = res.data.suibianList1
+                console.log(_this.arrList7)
             })
         },
         // 返回上一级
