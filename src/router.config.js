@@ -62,6 +62,9 @@ import Musongcard from "./components/Musongcard"
 import Mudingling from "./components/Mudingling"
 import Mublindbox from "./components/Mublindbox"
 
+// 推荐页面上的图书详情模板
+import recomDetail from "./detail/recomDetail.vue"
+
 // 配置路由
 export default{
     routes:[
@@ -345,5 +348,9 @@ export default{
                 TabbarShow:true  //需要显示  底部导航
             },
         },
+        {
+            path:'/recommend',
+            component:recomDetail,
+        }
     ]
 }

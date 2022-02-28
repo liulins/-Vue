@@ -89,7 +89,8 @@
 import DataList1View from '../components/DataList1'
 export default {
   data() {
-    return{}
+    return{
+    }
   },
   components:{
     DataList1View

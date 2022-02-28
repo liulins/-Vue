@@ -1,7 +1,7 @@
 <template id="datalist1">
     <div class="datalist1">
        <ul>
-           <li v-for="(k,index) in arrList" :key="index" class="datalist1_li">
+           <li v-for="(k,index) in arrList" :key="index" class="datalist1_li" @click="jumpPage(k.id)">
                <img :src="k.img" class="datalist1_img"/>
                <div class="datalist1_right">
                    <p class="datalist1_right_p1">{{k.title}}</p>
@@ -17,6 +17,7 @@
        </ul>
     </div>
 </template>
+
 <style>
   @import url(../assets/css/recommend.css);
 </style>
@@ -30,7 +31,11 @@ export default {
         }
     },
     mounted() {
-        this.getData()
+        this.getData();
+        
+    },
+    created(){
+        console.log(this.$router)
     },
     methods:{
         getData(){
@@ -41,6 +46,15 @@ export default {
                 console.log(_this.arrList)
             })
         },
+        jumpPage(id){
+            this.$router.push({
+                path:'/recommend',
+                query:{
+                    detail:id,
+                },
+            })
+            
+        }
     }
 }
 </script>

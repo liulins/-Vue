@@ -73,14 +73,39 @@
 .ertong_con_li_r_p4{width: 8rem;height: 8rem;position: absolute;top: 3rem;right: 2rem;border: 0px solid red;}
 .ertong_con_li_r_p3_img3{width: 7rem;height: 7rem;}
 
-
-
-
-
-
-
-
-
+/* 推荐页面的图书详情页 */
+.re_d{width: 100%;height: 50rem;background: #405c85;float: left;margin-top: -1.6rem;}
+.re_d-nav{width: 100%;height: 8rem;float: left;}
+.re_d-nav_img1{width: 3rem;height: 3rem;float: left;margin-top: 2.5rem;margin-left: 3rem;}
+.re_d-nav_img2{width: 3rem;height: 3rem;float: right;margin-top: 2.5rem;margin-right: 3rem;}
+.re_d-tit{width: 95.5%;height: 17rem;float: left;padding: 0 1.5rem;}
+.re_d-tit_img1{width: 13rem;height: 13rem;border: 0px solid red;float: left;margin-top: 2rem;}
+.re_d-tit_p1{float: left;font-size: 2.8rem;width: 70%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;height: 5rem;border: 0px solid red;line-height: 5rem;margin-top: 2rem;margin-left: 2rem;color: #fff;}
+.re_d-tit_p2{float: left;height: 4rem;line-height: 4rem;width: 70%;border: 0px solid red;margin-left: 2rem;}
+.re_d-tit_p2_span1{padding: 0.5rem;border-radius: 0.8rem;background: rgba(0, 0, 0, 0.3);font-size: 1.8rem;color: rgb(233, 233, 233);margin-right: 1rem;}
+.re_d-tit_p3{width: 70%;height: 5rem;border: 0px solid red;float: left;line-height: 5rem;margin-left: 2rem;}
+.re_d-tit_p3 img{width: 4rem;height: 4rem;border-radius: 50%;float: left;margin-top: 0.5rem;}
+.re_d-tit_p3 span{font-size: 2rem;color: #fff;margin-left: 1rem;display: inline-block;width: 70%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.re_d-grade{width: 95.5%;padding: 0 1.5rem;border: 0px solid red;float: left;height: 8rem;margin-top: 1rem;}
+.re_d-grade1{height: 7rem;float: left;margin-top: 0.5rem;text-align: center;margin-right: 5rem;}
+.re_d-grade1_p1{font-size: 3rem;color: #fff;font-weight: 600;}
+.re_d-grade1_p2{font-size: 1.7rem;color: rgb(221, 221, 221);}
+.re_d-grade2{width: 12rem;height: 5rem;background: #fff;border-radius: 2rem;float: right;line-height: 5rem;text-align: center;font-size: 2.3rem;color: rgb(65, 65, 65);font-weight: 600;margin-top: 1.5rem;margin-right: 3rem;}
+.re_d-rec{width: 95.5%;padding: 0 1.5rem;border: 0px solid red;float: left;height: 12rem;font-size: 2.2rem;color: #fff;text-indent: 4rem;line-height: 3.5rem;overflow: auto;}
+.re_txt{width: 95.3%;padding: 0 1.5rem;border: 1px solid red;height: 57.8rem;float: left;margin-top: -3rem;border-radius: 2.2rem 2.2rem 0 0;background: #fff;}
+.re_txt_tit{width: 95.3%;padding: 0 1.5rem;float: left;height: 5rem;margin-top: 2rem;}
+.re_txt_tit_btn{height: 5rem;background-color: tomato;border-radius: 2.3rem;padding: 0 1rem;line-height: 5rem;width: 15rem;float: left;}
+.re_txt_tit_btn1{width: 4rem;height: 4rem;float: left;margin-top: 0.6rem;}
+.re_txt_tit_btn span{color: #fff;font-size: 2.2rem;float: left;margin-left: 0.7rem;}
+.re_txt_tit_total{height: 5rem;border: 0px solid red;float: right;padding: 0 1rem;line-height: 5rem;font-size: 2.2rem;}
+.re_txt_tit_total img{width: 2rem;height: 2rem;float: right;margin-top: 1.5rem;margin-left: 1rem;}
+.re_txt_txt_li{width: 100%;height: 12rem;border: 1px solid red;float: left;list-style-type: none;margin-top: 2rem;}
+.re_txt_txt_li_p1{width: 80%;height: 8rem;border: 1px solid red;float: left;line-height: 4rem;font-size: 2.5rem;padding-left: 1rem;}
+.re_txt_txt_li_span1{font-size: 1.5rem;float: right;margin-top: 5rem;}
+.re_txt_txt_li_p2{width: 100%;height: 4rem;background-color: #2ff5ff;float: left;}
+.re_txt_txt_li_p2_1{width: 10rem;height: 4rem;line-height: 4rem;border: 1px solid red;float: left;}
+.re_txt_txt_li_p2_1 img{width: 2.5rem;height: 2.5rem;float: left;margin-top: 0.8rem;margin-left: 1rem;}
+.re_txt_txt_li_p2_1 span{font-size: 1.5rem;float: left;margin-left: 1rem;color: #999;}
 
 
 
