@@ -15,7 +15,7 @@
                     更多  >
                 </a>
             </p>
-            <div class="ruzhan_top_box1_1">
+            <div class="ruzhan_top_box1_1" @click="detail(k.id)">
                 <img :src="k.img1" class="ruzhan_top_box1_1_img"/>
                 <p class="ruzhan_top_box1_1_p">
                     {{k.txt1}}
@@ -95,6 +95,15 @@ export default {
         // 返回上一级
         back(){
             this.$router.go(-1)
+        },
+        // 获取详情页
+        detail(id){
+            this.$router.push({
+                path:'/recommend/ruzhan',
+                query:{
+                    detail:id,
+                },
+            })
         }
     },
 }
