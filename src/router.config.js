@@ -65,6 +65,14 @@ import Mublindbox from "./components/Mublindbox"
 // 推荐页面上的图书详情模板
 import recomDetail from "./detail/recomDetail.vue"
 import ruzhanDetail from "./detail/ruzhanDetail.vue"
+import suibianDetail from "./detail/suibianDetail.vue"
+import zhumianDetail from "./detail/zhumianDetail.vue"
+import ertongDetail from "./detail/ertongDetail.vue"
+import tingyinyueDetail from "./detail/tingyinyueDetail.vue"
+import mianfeiDetail from "./detail/mianfeiDetail.vue"
+import xiangshengDetail from "./detail/xiangshengDetail.vue"
+import lishigushiDetail from "./detail/lishigushiDetail.vue"
+import xueyingyuDetail from "./detail/xueyingyuDetail.vue"
 
 // 配置路由
 export default{
@@ -356,6 +364,38 @@ export default{
         {
             path:"/recommend/ruzhan",
             component:ruzhanDetail,
-        }
+        },
+        {
+            path:"/suibian",
+            component:suibianDetail,
+        },
+        {
+            path:"/zhumian",
+            component:zhumianDetail,
+        },
+        {
+            path:"/ertong",
+            component:ertongDetail,
+        },
+        {
+            path:"/tingyinyue",
+            component:tingyinyueDetail,
+        },
+        {
+            path:"/mianfei",
+            component:mianfeiDetail,
+        },
+        {
+            path:"/xiangsheng",
+            component:xiangshengDetail,
+        },
+        {
+            path:"/lishigushi",
+            component:lishigushiDetail,
+        },
+        {
+            path:"/xueyingyu",
+            component:xueyingyuDetail,
+        },
     ]
 }
