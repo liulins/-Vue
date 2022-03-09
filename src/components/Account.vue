@@ -96,27 +96,28 @@
                     </div>
                   </div>  
                   <div class="swiper-slide" style="height:106rem;overflow:auto;">
-                    <div class="play_box2-2">
-                      
-                      <div class="play_box2_p2">
-                        <div class="play_box2_p2_1">
-                          <img src="src/assets/img/ia_100000003000.webp" class="play_box2_p2_1_img"/>
-                          <p class="play_box2_p2_1_p1">
-                            <span class="play_box2_p2_1_p1_span1">美少女战士</span>
-                            <span class="play_box2_p2_1_p1_span2">2021-11-16-22:16</span>
-                          </p>
-                          <p class="play_box2_p2_1_p2">
-                            两个性别之间的不理解，好像在这几年愈演愈烈，一不小心就会演变为打拳。
-                          </p>
-                        </div>
-                      </div>
-                      <div class="play_box2_p3">
-                        <img src="src/assets/img/ia_100000000510.jpg" class="play_box2_p3_img1"/>
-                        <img src="src/assets/img/57.png" class="play_box2_p3_img2"/>
-                        <input type="text" placeholder="发表图片评论，你就是热评区最靓的仔！" class="play_box2_p3_put1"/>
-                        <!-- <button class="play_box2_p3_but">发 送</button> -->
-                      </div>
+                    <img src="src/assets/img/login10.png"/>
+                    <div class="white">
+                      <img class="white_logo" src="src/assets/img/login2.png"/>
+                      <p class="white_tit">欢迎登录有声读物~</p>
+                      <p class="white_txt1">未注册的用户将自动注册</p>
+                      <p class="white_put1">
+                        <img src="src/assets/img/login8.png" class="white_put1_img1"/>
+                        <input type="text" placeholder="请输入手机号"/>
+                      </p>
+                      <p class="white_put1">
+                        <img src="src/assets/img/login8.png" class="white_put1_img1"/>
+                        <input type="password" placeholder="请输入密码"/>
+                      </p>
+                      <p class="white_put2">
+                        <input type="checkbox"/>
+                        <span>我已阅读并同意《有声读物用户协议》和隐私政策</span>
+                      </p>
+                      <p class="white_btn">
+                        <button>登录</button>
+                      </p>
                     </div>
+                    <img src="src/assets/img/login12.png" class="white_left"/>
                   </div>
               </div>
             </div>

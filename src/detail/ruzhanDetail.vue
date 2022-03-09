@@ -80,14 +80,9 @@ export default {
     data(){
         return{
             recdetail:this.$route.query.detail,
-<<<<<<< HEAD
-            detailList:[]
-        } 
-=======
             detailList:[],
             detailData:[],
         }
->>>>>>> d2db633d09ff3697104c7313bf99875cc6ec7c98
     },
     methods:{
         file(){
@@ -108,7 +103,7 @@ export default {
             })
         },
         back(){
-            this.$router.go(-1)  
+            this.$router.go(-1)
         }
     },
     created(){

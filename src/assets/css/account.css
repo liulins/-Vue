@@ -83,3 +83,60 @@
 .play_box2_p3_img2{width: 4rem;height: 4rem;position: absolute;left: 4rem;top: 3.3rem;}
 .play_box2_p3_put1{width: 45rem;height: 7rem;background: #dedee7;float: left;margin-top: 1.7rem;margin-left: 2rem;border-radius: 1.5rem;font-size: 2rem;padding: 0 2.5rem;}
 .play_box2_p3_but{width: 10rem;height: 7rem;border: 0;background: #5700e3;outline: none;float: left;font-size: 3rem;margin-top: 1.9rem;margin-left: 1rem;border-radius: 1rem;color: #fff;font-weight: bold;}
+
+
+/* 登录页面 */
+.white{text-align: center;width: 80%;height: 80rem;background-color: #fff;position: absolute;top: 7rem;left: 7rem;border-radius: 3rem;}
+.white_left{position: absolute;bottom: 0;}
+.white_logo{margin-top: 5rem;}
+.white_tit{font-size: 2.5rem;color: #F6B130;font-weight: 600;margin-top: 3rem;}
+.white_txt1{font-size: 1.5rem;color: #999;margin-top: 1rem;}
+.white_put1{width: 70%;height: 5rem;border-bottom: 1px solid #999;float: left;padding: 1rem;margin-left: 7rem;margin-top: 3rem;line-height: 5rem;}
+.white_put1_img1{float: left;}
+.white_put1 input{font-size: 2.2rem;float: left;height: 5rem;margin-left: 2rem;border: 0;outline: none;}
+.white_put2{width: 70%;height: 3rem;border: 0px solid red;float: left;padding: 1rem;margin-left: 7rem;margin-top: 7rem;}
+.white_put2{font-size: 1.5rem;color: rgb(190, 189, 189);}
+.white_btn{width: 80%;height: 7rem;float: left;border: 0px solid red;margin-left: 5rem;margin-top: 1rem;}
+.white_btn button{font-size: 2.5rem;height: 7rem;width: 100%;border-radius: 3.5rem;border: 0;background-image: linear-gradient(to right,#ffcb20,#ffe662,#fcce44);letter-spacing: 1rem;color: #F86500;font-weight: 600;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

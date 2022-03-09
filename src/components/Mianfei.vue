@@ -7,7 +7,7 @@
             </div>
             <div class="ertong_con">
                 <ul>
-                    <li class="ertong_con_li" v-for="(k,index) in arrList7" :key="index">
+                    <li class="ertong_con_li" v-for="(k,index) in arrList7" :key="index" @click="jump(k.id)">
                         <div class="ertong_con_li_img1">
                             <img :src="k.img1" class="ertong_con_li_img2"/>
                         </div>
@@ -56,6 +56,14 @@ export default {
         // 返回上一级
         back(){
             this.$router.go(-1)
+        },
+        jump(id){
+            this.$router.push({
+                path:'/mianfei',
+                query:{
+                    detail:id,
+                },
+            })
         }
     },
 }

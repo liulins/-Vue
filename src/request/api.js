@@ -5,7 +5,7 @@ import request from "./request"
 
 // 本地数据
 export const Test1 = (params) => request.get('/datalist1.data',{params});
-
+export const Test2 = (params) => request.get('/datalist2.data',{params});
 
 
 

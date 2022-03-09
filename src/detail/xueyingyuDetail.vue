@@ -80,14 +80,9 @@ export default {
     data(){
         return{
             recdetail:this.$route.query.detail,
-<<<<<<< HEAD
-            detailList:[]
-        } 
-=======
             detailList:[],
             detailData:[],
         }
->>>>>>> d2db633d09ff3697104c7313bf99875cc6ec7c98
     },
     methods:{
         file(){
@@ -97,7 +92,7 @@ export default {
             var _this = this;
             Test1().then(function(res) {
                 // res就是请求成功之后的到的数据
-                _this.detailList = res.data.recDetail
+                _this.detailList = res.data.xueyingyuDetail
             })
         },
         getDetail(){
@@ -108,7 +103,7 @@ export default {
             })
         },
         back(){
-            this.$router.go(-1)  
+            this.$router.go(-1)
         }
     },
     created(){

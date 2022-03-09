@@ -6,24 +6,188 @@
                 <span class="ertong_top_tit">全部频道</span>
             </div>
             <div class="ertong_con">
-                
+                <van-search v-model="value" placeholder="请输入搜索关键词" />
+                <van-tree-select 
+                    height="150vw" 
+                    :items="items" 
+                    :main-active-index.sync="active">
+                    <template #content>
+                        <div v-if="active === 0">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList1" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 1">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList2" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 2">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList3" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 3">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList4" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 4">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList5" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </template>
+                </van-tree-select>
             </div>
         </div>
     </div>
 </template>
-<style>
-@import url(../assets/css/recommend.css);
-</style>
+<style lang="less" scoped>
+    // @import url(../assets/css/recommend.css);
+    /deep/ .van-search{
+        width: 100%;
+        height: 8rem;
+    }
+    /deep/ .van-search__content{
+        height: 5rem;
+        line-height: 5rem;
+    }
+    /deep/ .van-field__control{
+        height: 5rem;
+        font-size: 2rem;
+    }
+    /deep/ .van-field__left-icon .van-icon {
+        font-size: 3rem;
+        float: left;
+        margin-top: 1.7rem;
+        color: #DE4936;
+    }
+    /deep/ .van-field__body .van-icon{
+        font-size: 3rem;
+    }
+    /deep/ .van-tree-select__nav-item{
+        padding: 3.4rem 2rem;
+        font-size: 2.4rem;
+    }
+    /deep/ .van-sidebar-item--select::before{
+        height: 4rem;
+    }
+    /deep/ .van-sidebar-item--select, .van-sidebar-item--select:active{
+        color: #DE4936;
+    }
+</style>>
 <script>
 import {Test1} from '../request/api.js'
+import {Test2} from '../request/api.js'
+import { ref } from 'vue';
 export default {
     data(){
         return{
-            arrList7:[]
+            arrList7:[],
+            classifyList1:[],
+            classifyList2:[],
+            classifyList3:[],
+            classifyList4:[],
+            classifyList5:[],
+            classifyList6:[],
+            classifyList7:[],
+            classifyList8:[],
+            classifyList9:[],
+            classifyList10:[],
+            classifyList11:[],
+            classifyList12:[],
+            value: '',
+            active: 0,
+            items: [
+                { text: '小说' },
+                { text: '儿童' },
+                { text: '相声小品' },
+                { text: '评书' },
+                { text: '娱乐' },
+                { text: '悬疑' },
+                { text: '人文' },
+                { text: '国学' },
+                { text: '头条' },
+                { text: '音乐' },
+                { text: '历史' },
+                { text: '情感' },
+            ],
         }
     },
+    
     mounted() {
         this.getData()
+        this.getList1()
+        this.getList2()
+        this.getList3()
+        this.getList4()
+        this.getList5()
     },
     methods: {
         // 获取数据
@@ -33,10 +197,41 @@ export default {
                 _this.arrList7 = res.data.xueyingyu
             })
         },
+        getList1(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList1 = res.data.classify1
+            })
+        },
+        getList2(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList2 = res.data.classify2
+            })
+        },
+        getList3(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList3 = res.data.classify3
+            })
+        },
+        getList4(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList4 = res.data.classify4
+            })
+        },
+        getList5(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList5 = res.data.classify5
+            })
+        },
         // 返回上一级
         back(){
             this.$router.go(-1)
-        }
+        },
+        
     },
 }
 </script>
