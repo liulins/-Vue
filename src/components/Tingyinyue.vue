@@ -50,8 +50,8 @@ export default {
             var _this = this;
             Test1().then(function(res){
                 _this.arrList7 = res.data.tingyinyue
-                console.log(_this.arrList7)
-            })
+                console.log(_this.arrList7) 
+            })   
         },
         // 返回上一级
         back(){

@@ -79,7 +79,7 @@ export default {
         return{
             recdetail:this.$route.query.detail,
             detailList:[]
-        }
+        } 
     },
     methods:{
         file(){
@@ -94,7 +94,7 @@ export default {
             })
         },
         back(){
-            this.$router.go(-1)
+            this.$router.go(-1)  
         }
     },
     created(){
