@@ -46,15 +46,15 @@
                 <router-link to="/homepage/novel" class="homepage_fenlei_anniu">小说<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/child" class="homepage_fenlei_anniu">儿童<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/podcast" class="homepage_fenlei_anniu">播客<span class="homepage_fenlei_line"></span></router-link>
-                <router-link to="/homepage/crosstalk" class="homepage_fenlei_anniu">相声评书<span class="homepage_fenlei_line"></span></router-link>
+                <!-- <router-link to="/homepage/crosstalk" class="homepage_fenlei_anniu">相声评书<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/broadcast" class="homepage_fenlei_anniu">广播<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/beijing" class="homepage_fenlei_anniu">北京<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/handpick" class="homepage_fenlei_anniu">精选<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/humanity" class="homepage_fenlei_anniu">人文<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/history" class="homepage_fenlei_anniu">历史<span class="homepage_fenlei_line"></span></router-link>
                 <router-link to="/homepage/bestsellers" class="homepage_fenlei_anniu">畅销书<span class="homepage_fenlei_line"></span></router-link>
-                <router-link to="/homepage/ebook" class="homepage_fenlei_anniu">电子书<span class="homepage_fenlei_line"></span></router-link>
-                <div class="homepage_fenlei_all">
+                <router-link to="/homepage/ebook" class="homepage_fenlei_anniu">电子书<span class="homepage_fenlei_line"></span></router-link> -->
+                <div class="homepage_fenlei_all" @click="routeJump">
                     <img src="src/assets/img/04.png" class="homepage_sec_img4"/>
                 </div>
             </div>
@@ -92,5 +92,10 @@ export default {
             loop:true
         })
     },
+    methods:{
+        routeJump(){
+            this.$router.replace('/homepage/recommend/quanbu')
+        }
+    }
 }
 </script>

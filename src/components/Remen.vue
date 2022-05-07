@@ -2,8 +2,8 @@
 <!-- 直播--热门 -->
     <div class="remen">
         <!-- 六组数据循环 -->
-        <ul>
-            <li class="tuijian_video_box1" v-for="(k,index) in arrList1" :key="index">
+        <ul id="xunhuan1">
+            <li class="tuijian_video_box1" v-for="(k,index) in arrList1" :key="index" @click="jump(k.id)">
                 <img :src="k.img" class="tuijian_video_box1_img1"/>
                 <div class="tuijian_video_box1_mes">{{k.title}}</div>
                 <p class="tuijian_video_box1_p1">{{k.txt}}</p>
@@ -17,10 +17,10 @@
         </ul>
         <!-- 轮播1 -->
         <div class="remen_lunbo1">
-            <div class="swiper-container1">
-                <div class="swiper-wrapper">
+            <div class="swiper-container1" style="width:100%;height:100%;">
+                <div class="swiper-wrapper" style="width:100%;height:100%;">
                     <!-- 小盒子 -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" style="width:100%;height:100%;">
                         <!-- Slide -->
                         <img src="src/assets/img/ia_100000001.webp" class="remen_lunbo1_img1"/>
                     </div>
@@ -46,8 +46,8 @@
         </div>
         <!-- 4组循环 -->
         <ul>
-            <li class="tuijian_video_box1" v-for="(k,index) in arrList2" :key="index">
-                <img :src="k.img" class="tuijian_video_box1_img1"/>
+            <li class="tuijian_video_box1" v-for="(k,index) in arrList2" :key="index" >
+                <img :src="k.img" class="tuijian_video_box1_img1" />
                 <div class="tuijian_video_box1_mes">{{k.title}}</div>
                 <p class="tuijian_video_box1_p1">{{k.txt}}</p>
                 <p class="tuijian_video_box1_p2">
@@ -126,7 +126,7 @@
                     <div class="swiper-slide">
                         <p>
                             <span class="remen_lunbo2_p1">主播榜</span>
-                            <img src="src/assets/img/ia_100000004007.webp" class="remen_lunbo2_img1"/>
+                            <img src="src/assets/img/ia_100000004000.webp" class="remen_lunbo2_img1"/>
                             <img src="src/assets/img/ia_100000004004.webp" class="remen_lunbo2_img2"/>
                             <img src="src/assets/img/ia_100000004003.webp" class="remen_lunbo2_img2"/>
                         </p>
@@ -169,6 +169,9 @@
     </div>
 </template>
 <script>
+$(function(){
+    
+})
 import {Test1} from '../request/api.js'
 import "../assets/js/swiper.min.js"
 import VideoView from '../components/Video'
@@ -181,6 +184,10 @@ export default {
     },
     components:{
         VideoView
+    },
+    created(){
+        // 判断li为第奇数个还是偶数个
+        // $("li:even").css("border","1px solid red")
     },
     mounted() {
         this.getData()
@@ -217,6 +224,7 @@ export default {
             autoplayDisableOnInteraction: false,
             loop:true
         });
+        
     },
     methods: {
         getData(){
@@ -231,6 +239,14 @@ export default {
             Test1().then(function(res){
                 _this.arrList2 = res.data.videoList3
                 console.log(_this.arrList2)
+            })
+        },
+        jump(id){
+            this.$router.push({
+                path:'/homepage/live/remen/videoDetail',
+                query:{
+                    detail:id,
+                },
             })
         }
     },

@@ -74,12 +74,14 @@
 </style>
 <script>
 import {Test1} from '../request/api.js'
+import {Test2} from '../request/api.js'
 export default {
     data(){
         return{
-            recdetail:this.$route.query.detail,
-            detailList:[]
-        } 
+            recdetail:this.$route.query.detail
+            detailList:[],
+            detailData:[],
+        }
     },
     methods:{
         file(){
@@ -102,6 +104,7 @@ export default {
     },
     mounted(){
         this.getData()
+        this.getDetail()
     }
 }
 </script>

@@ -14,3 +14,13 @@
 <style>
   @import url(../assets/css/homepage.css);
 </style>
+<script>
+export default {
+  created(){
+    // 判断用户是否登录
+    if(!localStorage.getItem("username") && !localStorage.getItem("password")){
+        this.$router.push('/login')
+    }
+  }
+}
+</script>

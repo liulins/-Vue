@@ -73,13 +73,32 @@ import mianfeiDetail from "./detail/mianfeiDetail.vue"
 import xiangshengDetail from "./detail/xiangshengDetail.vue"
 import lishigushiDetail from "./detail/lishigushiDetail.vue"
 import xueyingyuDetail from "./detail/xueyingyuDetail.vue"
+import shopDetail from "./detail/shopDetail.vue"
+import videoDetail from "./detail/videoDetail.vue"
+
+// 账号设置页面
+import privacyManage from "./admin/privacyManage.vue"
+import listenLike from "./admin/listenLike.vue"
+
+// 购物车页面
+import shopCar from "./shop/shopCar.vue"
+
+// 登录页面
+import Login from "./components/login.vue"
 
 // 配置路由
 export default{
     routes:[
         {
             path:'/',
-            redirect:'/homepage'
+            redirect:'/login'
+        },
+        {
+            path:"/login",
+            component:Login,
+            meta:{
+                TabbarShow:true  //需要显示  底部导航
+            },
         },
         {
             path:'/homepage',
@@ -396,6 +415,41 @@ export default{
         {
             path:"/xueyingyu",
             component:xueyingyuDetail,
+        },
+        {
+            path:"/account/shopdetail",
+            component:shopDetail,
+            meta:{
+                TabbarShow:true  //需要显示  底部导航
+            },
+        },
+        {
+            path:"/account/shopCar",
+            component:shopCar,
+            meta:{
+                TabbarShow:true  //需要显示  底部导航
+            },
+        },
+        {
+            path:"/account/admin/privacyManage",
+            component:privacyManage,
+            meta:{
+                TabbarShow:true  //需要显示  底部导航
+            },
+        },
+        {
+            path:"/account/admin/listenLike",
+            component:listenLike,
+            meta:{
+                TabbarShow:true  //需要显示  底部导航
+            },
+        },
+        {
+            path:"/homepage/live/remen/videoDetail",
+            component:videoDetail,
+            meta:{
+                TabbarShow:true  //需要显示  底部导航
+            },
         },
     ]
 }

@@ -1,18 +1,18 @@
 /* 播放页面 */
 .play_bg{width: 100%;height: 117rem;position: absolute;top: 0;background-image: linear-gradient(to bottom,rgb(28, 28, 105),rgb(34 143 177),rgb(41, 41, 97));overflow: auto;}
-.play_top2{width: 100%;height: 10rem;background: #f3ec85;position: absolute;top: 0;}
+.play_top2{width: 100%;height: 10rem;background: wheat;position: absolute;top: 0;}
 .play_top_back{width: 3rem;height: 3rem;float: left;margin-top: 3.8rem;margin-left: 2rem;}
-.play_top_anniu{width: 30rem;height: 10rem;border: 0px solid #fff;float: left;margin-left: 11.5rem;line-height: 10rem;text-align: center;}
+.play_top_anniu{width: 30rem;height: 10rem;border: 0px solid #fff;float: left;margin-left: 18.5rem;line-height: 10rem;text-align: center;}
 .play_top_anniu a{font-size: 2.7rem;text-decoration: none;color: #fff;display: inline-block;width: 9rem;height: 5rem;line-height: 5rem;text-align: center;margin-right: 5rem;}
 .play_top_anniu1{border-bottom: 5px solid #fff;color: #fff;font-weight: bold;}
-.play_boxx{width: 100%;height: 106.2rem;border: 0px solid blue;float: left;overflow: auto;margin-top: -0.2rem;}
+.play_boxx{width: 100%;height: 112.9rem;border: 0px solid blue;float: left;overflow: auto;margin-top: -0.2rem;}
 .play_p2_span1{font-size: 2.2rem;color: #bd9bff;}
 .play_p2_span2{display: inline-block;font-size: 2.2rem;padding: 0rem 1rem;background: #ccc;border-radius: 4rem;float: right;}
 .play_p3{width: 91%;height: 8rem;border: 0px solid red;float: left;margin-left: 3rem;margin-top: 2rem;}
 .play_p3_img1{width: 4rem;height: 4rem;float: left;margin-left: 1rem;margin-top: 1.5rem;margin-right: 8.4rem;}
-.play_p4{width: 91%;height: 20rem;border: 1px solid red;float: left;margin-top: 1.5rem;margin-left: 2.8rem;}
+.play_p4{width: 91%;height: 20rem;border: 0px solid red;float: left;margin-top: 1.5rem;margin-left: 2.8rem;}
 .play_p4_music1{width: 100%;height: 15rem;font-size: 3rem;}
-.swiper1_bg{width: 100%;height:29rem;border-radius: 10% 10% 0 0;background-image: linear-gradient(rgb(255, 250, 236),rgb(253 251 211));}
+.swiper1_bg{width: 100%;height:29rem;border-radius: 10% 10% 0 0;background-image: linear-gradient(rgb(245 222 179),rgb(253 251 211));}
 .swiper1_bg_p1{border-bottom: 5px dashed rgb(237 209 157);height: 14rem;line-height: 14rem;margin-bottom: 1rem;}
 .swiper1_bg_p1_imgs{display: inline-block;width: 10rem;height: 10rem;border: 0px solid red;border-radius: 50%;float: left;margin-top: 3rem;margin-left: 3rem;overflow: hidden;}
 .swiper1_bg_p1_imgs img{width: 10rem;height: 10rem;}
@@ -86,29 +86,31 @@
 
 
 /* 登录页面 */
-.white{text-align: center;width: 80%;height: 80rem;background-color: #fff;position: absolute;top: 7rem;left: 7rem;border-radius: 3rem;}
-.white_left{position: absolute;bottom: 0;}
-.white_logo{margin-top: 5rem;}
-.white_tit{font-size: 2.5rem;color: #F6B130;font-weight: 600;margin-top: 3rem;}
+.white{text-align: center;width: 80%;height: 80rem;background-color: #fff;position: absolute;top: 18rem;left: 7rem;border-radius: 3rem;z-index: 2;}
+.white_left{position: absolute;bottom: 0;left: 0;width: 100%;}
+.white_logo{margin-top: 5rem;width: 17rem;height: 10rem;}
+.white_tit{font-size: 2.5rem;color: #F6B130;font-weight: 600;margin-top: 2rem;}
 .white_txt1{font-size: 1.5rem;color: #999;margin-top: 1rem;}
-.white_put1{width: 70%;height: 5rem;border-bottom: 1px solid #999;float: left;padding: 1rem;margin-left: 7rem;margin-top: 3rem;line-height: 5rem;}
-.white_put1_img1{float: left;}
-.white_put1 input{font-size: 2.2rem;float: left;height: 5rem;margin-left: 2rem;border: 0;outline: none;}
-.white_put2{width: 70%;height: 3rem;border: 0px solid red;float: left;padding: 1rem;margin-left: 7rem;margin-top: 7rem;}
+.white_put1{width: 70%;height: 5rem;border-bottom: 1px solid #eee;float: left;padding: 1rem;margin-left: 7rem;margin-top: 3rem;line-height: 5rem;}
+.white_put1_img1{float: left;width: 3rem;height: 3rem;margin-top: 1rem;}
+.white_put1 input{font-size: 0.5rem;float: left;height: 5rem;margin-left: 2rem;border: 0;outline: none;}
+.white_put2{width: 96%;height: 3rem;border: 0px solid red;float: left;padding: 1rem;margin-left: 2.5rem;margin-top: 5rem;}
 .white_put2{font-size: 1.5rem;color: rgb(190, 189, 189);}
 .white_btn{width: 80%;height: 7rem;float: left;border: 0px solid red;margin-left: 5rem;margin-top: 1rem;}
-.white_btn button{font-size: 2.5rem;height: 7rem;width: 100%;border-radius: 3.5rem;border: 0;background-image: linear-gradient(to right,#ffcb20,#ffe662,#fcce44);letter-spacing: 1rem;color: #F86500;font-weight: 600;}
+.login_btn{font-size: 2.5rem;height: 7rem;width: 100%;border-radius: 3.5rem;border: 0;background-image: linear-gradient(to right,#ffcb20,#ffe662,#fcce44);letter-spacing: 1rem;color: #F86500;font-weight: 600;margin-top: 2rem;}
+.login{width: 100%;height: 100%;border: 0px solid red;overflow: auto;position: absolute;top: 0;}
 
 
+/* 账号设置页面 */
+.accountLogin1{width: 100%;border: 0px solid red;}
+.accountLogin1_tit{width: 97%;height: 6rem;line-height: 6rem;padding-left: 2rem;color: #666;}
+.accountLogin2{width: 100%;border: 0px solid red;margin-top: 2rem;padding-bottom: 10rem;height: 7rem;}
+.accountLogin2 button{width: 60%;height: 7rem;border-radius: 5rem;border: 0;outline: none;background: #ffa600;font-size: 2.7rem;color: #fff;letter-spacing: 0.5rem;float: left;margin-top: 5rem;margin-left: 14.5rem;margin-bottom: 10rem;}
 
-
-
-
-
-
-
-
-
+/* 隐私政策页面 */
+.privacy{width: 100%;height: 100%;position: absolute;top: 0;}
+.privacy_top{width: 100%;height: 9rem;text-align: center;line-height: 9rem;font-size: 2.7rem;}
+.privacy_mid{width: 100%;border: 0px solid red;}
 
 
 

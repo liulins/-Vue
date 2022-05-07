@@ -1,7 +1,7 @@
 // 直播组件
 <template id="live">
     <div>
-      <div class="live_tit">
+      <!-- <div class="live_tit">
         <router-link to="/homepage/live/tuijian" class="live_box1">
             <img src="src/assets/img/23.png" class="live_box1_img1"/>
             <span class="live_box1_p1">推荐</span>
@@ -51,12 +51,11 @@
             <img src="src/assets/img/32.png" class="live_box1_img1"/>
             <span class="live_box1_p1">新秀</span>
         </router-link>
-        <!-- 右侧栏我的 -->
         <div class="live_box1_right">
           <img src="src/assets/img/33.png"/>
           <span class="live_box1_right_1">我的</span>
         </div>
-      </div>
+      </div> -->
       <div>
         <router-view></router-view>
       </div>

@@ -23,7 +23,20 @@
         {"id":20,"img":"src/assets/img/ia_100000000416.jpg","title":"摸金天师","txt":"三年寻龙，十年点穴","play":"74.9亿","renqi":"520.1万次订阅"},
         {"id":21,"img":"src/assets/img/ia_100000000280.jpeg","title":"《鬼谷子》原文朗读","txt":"《鬼谷子》据中华书局《鬼谷子集校集注》录音","play":"1.3","renqi":""},
         {"id":22,"img":"src/assets/img/ia_100000000280.jpeg","title":"王的女人谁敢动","txt":"北慕国战神的一夜奇遇，她从此无处可逃","play":"24.7亿","renqi":"197.2万次订阅"},
-        {"id":23,"img":"src/assets/img/ia_100000000200.jpeg","title":"（全集免费）少帅夫人她又美又飒 |军痞少帅VSA女主","txt":"正本免费！民国甜宠复仇虐渣，男强女强1V1","play":"3653.5万","renqi":"近期播放超547万"}
+        {"id":23,"img":"src/assets/img/ia_100000000200.jpeg","title":"（全集免费）少帅夫人她又美又飒 |军痞少帅VSA女主","txt":"正本免费！民国甜宠复仇虐渣，男强女强1V1","play":"3653.5万","renqi":"近期播放超547万"},
+        {"id":24,"img":"src/assets/img/ia_100000008.webp","title":"周易八卦，易经入门 |超级记忆法快速学习","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万"},
+        {"id":25,"img":"src/assets/img/ia_100000010.webp","title":"《鬼谷子》原文朗读","txt":"《鬼谷子》据中华书局《鬼谷子集校集注》录音","play":"1.3万","renqi":""},
+        {"id":26,"img":"src/assets/img/ia_100000011.webp","title":"安全警长拉布拉多 |幼儿安全科普","txt":"孩子的安全，我们来守护！","play":"5.8亿","renqi":"33.4万次订阅"},
+        {"id":27,"img":"src/assets/img/ia_100000012.webp","title":"【失眠小姐】当所有的等待与光阴无关的时候","txt":"专辑：失眠小姐","play":"38.5万","renqi":"评论热议节目"},
+        {"id":28,"img":"src/assets/img/ia_100000013.webp","title":"摸金天师","txt":"三年寻龙，十年点穴","play":"74.9亿","renqi":"520.1万次订阅"},
+        {"id":29,"img":"src/assets/img/ia_100000014.webp","title":"《鬼谷子》原文朗读","txt":"《鬼谷子》据中华书局《鬼谷子集校集注》录音","play":"1.3","renqi":""}
+    ],
+    "booklist3":[
+        {"id":0,"img":"src/assets/img/ia_100000008.webp","title":"周易八卦，易经入门 |超级记忆法快速学习","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万"},
+        {"id":1,"img":"src/assets/img/ia_100000010.webp","title":"《鬼谷子》原文朗读","txt":"《鬼谷子》据中华书局《鬼谷子集校集注》录音","play":"1.3万","renqi":""},
+        {"id":2,"img":"src/assets/img/ia_100000011.webp","title":"安全警长拉布拉多 |幼儿安全科普","txt":"孩子的安全，我们来守护！","play":"5.8亿","renqi":"33.4万次订阅"},
+        {"id":3,"img":"src/assets/img/ia_100000012.webp","title":"【失眠小姐】当所有的等待与光阴无关的时候","txt":"专辑：失眠小姐","play":"38.5万","renqi":"评论热议节目"},
+        {"id":4,"img":"src/assets/img/ia_100000013.webp","title":"摸金天师","txt":"三年寻龙，十年点穴","play":"74.9亿","renqi":"520.1万次订阅"}
     ],
     "videolist":[
         {"img2":"src/assets/img/ia_100000000200.jpeg","title":"弹唱","txt":"慕仙_V秀","img":"src/assets/img/ia_100000002968.webp","p1":"你的专属钢琴弹唱","num":"285"},
@@ -56,18 +69,18 @@
         {"img2":"src/assets/img/ia_100000000464.jpg","title":"有声书","txt":"林轩_乐天","img":"src/assets/img/ia_100000003011.webp","p1":"来，一起快乐吧！","num":"649"}
     ],
     "videoList2":[
-        {"img2":"src/assets/img/ia_100000000453.jpg","title":"弹唱","txt":"海盗船长___","img":"src/assets/img/ia_100000003006.webp","p1":"萌新唱歌，翻唱经典","num":"118"},
-        {"img2":"src/assets/img/ia_100000000456.jpg","title":"翻唱","txt":"玖燃_承蒙厚爱","img":"src/assets/img/ia_100000003007.webp","p1":"想把我唱给你听","num":"6512"},
-        {"img2":"src/assets/img/ia_100000000457.jpg","title":"互动","txt":"久郁","img":"src/assets/img/ia_100000003008.webp","p1":"优质翻唱√","num":"340"},
-        {"img2":"src/assets/img/ia_100000000460.jpg","title":"翻唱","txt":"曲小瑶_素未谋面","img":"src/assets/img/ia_100000003009.webp","p1":"和你的悄悄话","num":"625"},
-        {"img2":"src/assets/img/ia_100000000462.jpg","title":"脱口秀","txt":"麦乐帝白_Ria","img":"src/assets/img/ia_100000003010.webp","p1":"脑海中的Melody","num":"100"},
-        {"img2":"src/assets/img/ia_100000000464.jpg","title":"有声书","txt":"林轩_乐天","img":"src/assets/img/ia_100000003011.webp","p1":"来，一起快乐吧！","num":"649"}
+        {"id":"0","img2":"src/assets/img/ia_100000000453.jpg","title":"弹唱","txt":"海盗船长___","img":"src/assets/img/ia_100000003006.webp","p1":"萌新唱歌，翻唱经典","num":"118"},
+        {"id":"1","img2":"src/assets/img/ia_100000000456.jpg","title":"翻唱","txt":"玖燃_承蒙厚爱","img":"src/assets/img/ia_100000003007.webp","p1":"想把我唱给你听","num":"6512"},
+        {"id":"2","img2":"src/assets/img/ia_100000000457.jpg","title":"互动","txt":"久郁","img":"src/assets/img/ia_100000003008.webp","p1":"优质翻唱√","num":"340"},
+        {"id":"3","img2":"src/assets/img/ia_100000000460.jpg","title":"翻唱","txt":"曲小瑶_素未谋面","img":"src/assets/img/ia_100000003009.webp","p1":"和你的悄悄话","num":"625"},
+        {"id":"4","img2":"src/assets/img/ia_100000000462.jpg","title":"脱口秀","txt":"麦乐帝白_Ria","img":"src/assets/img/ia_100000003010.webp","p1":"脑海中的Melody","num":"100"},
+        {"id":"5","img2":"src/assets/img/ia_100000000464.jpg","title":"有声书","txt":"林轩_乐天","img":"src/assets/img/ia_100000003011.webp","p1":"来，一起快乐吧！","num":"649"}
     ],
     "videoList3":[
         {"img2":"src/assets/img/ia_100000003988.webp","title":"互动","txt":"青衣天","img":"src/assets/img/ia_100000003988.webp","p1":"温暖心动男声","num":"310"},
         {"img2":"src/assets/img/ia_100000000456.jpg","title":"翻唱","txt":"9歌_","img":"src/assets/img/ia_100000003998.webp","p1":"这姑娘好哇","num":"352"},
         {"img2":"src/assets/img/ia_100000000457.jpg","title":"互动","txt":"大逗逗_熊猫","img":"src/assets/img/ia_100000003999.webp","p1":"可惜我是白羊座","num":"733"},
-        {"img2":"src/assets/img/ia_100000000460.jpg","title":"翻唱","txt":"宠妮毛毛的猫猫","img":"src/assets/img/ia_100000004007.webp","p1":"因你而唱❤感受","num":"189"}
+        {"img2":"src/assets/img/ia_100000000460.jpg","title":"翻唱","txt":"宠妮毛毛的猫猫","img":"src/assets/img/ia_100000004000.webp","p1":"因你而唱❤感受","num":"189"}
     ],
     "ruzhanList1":[
         {"id":"0","img1":"src/assets/img/ia_100000012.webp","img2":"src/assets/img/ia_100000009.webp","img3":"src/assets/img/ia_100000010.webp","txt1":"重生八零，媳妇有点辣 |免费多人有声剧","txt2":"一剑独尊（叶璇叶灵 |有声的紫禁 |男女双播）","txt3":"大奉打更人 |头陀渊 |搞笑&修仙","tit":"上亿播放量的经典有声小说"},
@@ -118,12 +131,18 @@
         {"id":13,"img":"src/assets/img/ia_100000000448.jpg","head":"src/assets/img/ia_300000021.jpg","title":"重生八零，媳妇有点辣 |免费多人有声剧", "play":"46.2万", "introduce":"催眠冥想，深度助眠。睡眠决定一切，睡眠修复免疫系统，有深睡有幸福有未来","label":"个人成长","name":"喜点","record":"9.7","ding":"42.3万","num":"52"}
     ],
     "dingyuelist1":[
-        {"img1":"src/assets/img/ia_100000012.webp","img2":"src/assets/img/ia_100000009.webp","img3":"src/assets/img/ia_100000010.webp","txt1":"重生八零，媳妇有点辣 |免费多人有声剧","txt2":"一剑独尊（叶璇叶灵 |有声的紫禁 |男女双播）","txt3":"大奉打更人 |头陀渊 |搞笑&修仙","tit":"上亿播放量的经典有声小说"},
-        {"img1":"src/assets/img/ia_100000000346.jpeg","img2":"src/assets/img/ia_100000000417.jpg","img3":"src/assets/img/ia_100000000422.jpg","txt1":"郭德纲21年相声精选","txt2":"白眉大侠 |丹田芳（400回完）","txt3":"乱世枭雄 |单田芳经典","tit":"你来啦，老郭等你好久啦！"},
-        {"img1":"src/assets/img/ia_100000000416.jpg","img2":"src/assets/img/ia_100000000420.jpg","img3":"src/assets/img/ia_100000000426.jpg","txt1":"杨侃 |杨毅电台深夜小茶馆 |兮香怪谈","txt2":"故事FM","txt3":"原来是这样？！","tit":"时下最热播客"},
-        {"img1":"src/assets/img/ia_100000000427.jpg","img2":"src/assets/img/ia_100000000474.jpg","img3":"src/assets/img/ia_100000000484.jpg","txt1":"米小圈上学记：一二三年纪","txt2":"段子来了","txt3":"民间鬼故事","tit":"奇闻悬疑，下饭合集"},
-        {"img1":"src/assets/img/ia_100000000430.jpg","img2":"src/assets/img/ia_100000000472.jpg","img3":"src/assets/img/ia_100000000482.jpg","txt1":"东方新闻","txt2":"晚安妈妈睡前故事","txt3":"4-7岁睡前故事 |宝宝巴士故事","tit":"一秒吸引宝宝注意力，带娃必备"},
-        {"img1":"src/assets/img/ia_100000000432.jpg","img2":"src/assets/img/ia_100000000470.jpg","img3":"src/assets/img/ia_100000000479.jpg","txt1":"齐俊杰看财经","txt2":"新闻联播","txt3":"环球观察","tit":"最新资讯快报，掌握一手信息"}
+        {"img1":"src/assets/img/ia_100000012.webp","txt1":"重生八零，媳妇有点辣 |免费多人有声剧","txt2":"一剑独尊（叶璇叶灵 |有声的紫禁 |男女双播）","txt3":"大奉打更人 |头陀渊 |搞笑&修仙","tit":"上亿播放量的经典有声小说"},
+        {"img1":"src/assets/img/ia_100000000346.jpeg","txt1":"郭德纲21年相声精选","txt2":"白眉大侠 |丹田芳（400回完）","txt3":"乱世枭雄 |单田芳经典","tit":"你来啦，老郭等你好久啦！"},
+        {"img1":"src/assets/img/ia_100000000416.jpg","txt1":"杨侃 |杨毅电台深夜小茶馆 |兮香怪谈","txt2":"故事FM","txt3":"原来是这样？！","tit":"时下最热播客"},
+        {"img1":"src/assets/img/ia_100000000427.jpg","txt1":"米小圈上学记：一二三年纪","txt2":"段子来了","txt3":"民间鬼故事","tit":"奇闻悬疑，下饭合集"},
+        {"img1":"src/assets/img/ia_100000000430.jpg","txt1":"东方新闻","txt2":"晚安妈妈睡前故事","txt3":"4-7岁睡前故事 |宝宝巴士故事","tit":"一秒吸引宝宝注意力，带娃必备"},
+        {"img1":"src/assets/img/ia_100000000432.jpg","txt1":"齐俊杰看财经","txt2":"新闻联播","txt3":"环球观察","tit":"最新资讯快报，掌握一手信息"},
+        {"img1":"src/assets/img/c1.webp","txt1":"我给孟婆当小弟（悬疑搞笑）|牛大宝","txt2":"一剑独尊（叶璇叶灵 |有声的紫禁 |男女双播）","txt3":"大奉打更人 |头陀渊 |搞笑&修仙","tit":"上亿播放量的经典有声小说"},
+        {"img1":"src/assets/img/c2.webp","txt1":"我有一座冒险屋","txt2":"白眉大侠 |丹田芳（400回完）","txt3":"乱世枭雄 |单田芳经典","tit":"你来啦，老郭等你好久啦！"},
+        {"img1":"src/assets/img/c3.webp","txt1":"法医秦明系列大合集","txt2":"故事FM","txt3":"原来是这样？！","tit":"时下最热播客"},
+        {"img1":"src/assets/img/c4.webp","txt1":"道门风水师","txt2":"段子来了","txt3":"民间鬼故事","tit":"奇闻悬疑，下饭合集"},
+        {"img1":"src/assets/img/b11.webp","txt1":"奇妙的十万个为什么 | 科普百科大全","txt2":"晚安妈妈睡前故事","txt3":"4-7岁睡前故事 |宝宝巴士故事","tit":"一秒吸引宝宝注意力，带娃必备"},
+        {"img1":"src/assets/img/b9.webp","txt1":"神奇调查局 | 大有叔叔动植物科普","txt2":"新闻联播","txt3":"环球观察","tit":"最新资讯快报，掌握一手信息"}
     ],
     "booklist2":[
         {"img":"src/assets/img/ia_100000008.webp","title":"周易八卦，易经入门 |超级记忆法快速学习","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万"},
@@ -215,22 +234,22 @@
         {"imgs1":"src/assets/img/ia_300000013.jpg","names":"小气鬼喝凉水","times":"4小时前 分享了声音","texts":"《老友记》，两套房间，一间咖啡馆，一个传说。不管你开心还是难过，活泼有趣的老友们总在老地方等着你❤。","imgs2":"src/assets/img/ia_400000016.jpg","title":"异界守望者","msg":"《I'll Be There For You》","bofangs":"1548","times1":"16:28"}
     ],
     "accountLists":[
-        {"img":"src/assets/img/ia_100000000.jpg","title":"原装正品耳机适用华为type-c接口","txt":"￥13.80","sale":"已售6000+件"},
-        {"img":"src/assets/img/ia_100000001.jpg","title":"兰士顿D4重低音炮四核双动圈耳机入耳式","txt":"￥59.00","sale":"已售6200+件"},
-        {"img":"src/assets/img/ia_100000002.jpg","title":"原装苹果AirPods 2代无线蓝牙耳机配充电盒","txt":"￥138.88","sale":"已售1100+件"},
-        {"img":"src/assets/img/ia_100000003.jpg","title":"已销售160万条质量有保障兰士顿原装有线耳机","txt":"￥108.88","sale":"已售200+件"},
-        {"img":"src/assets/img/ia_100000004.jpg","title":"vivo type-C降噪煮面学习睡眠耳机","txt":"￥158.80","sale":"已售200+件"},
-        {"img":"src/assets/img/ia_100000013.jpg","title":"原装正品耳机适用华为TYPE-C接口有线入耳式","txt":"￥180.88","sale":"已售4600+件"},
-        {"img":"src/assets/img/ia_100000006.jpg","title":"李佳琪推荐新款降噪无线蓝牙耳机","txt":"￥68.80","sale":"已售2000+件"},
-        {"img":"src/assets/img/ia_100000007.jpg","title":"倍思真无线运动跑步紫色蓝牙耳机","txt":"￥29.80","sale":"已售50000件"},
-        {"img":"src/assets/img/ia_100000008.jpg","title":"官方正品2022新款无线蓝牙耳机","txt":"￥158.80","sale":"已售600+件"},
-        {"img":"src/assets/img/ia_100000009.jpg","title":"【官方推荐 月销3万】漫步者耳机","txt":"￥109.90","sale":"已售10000+件"},
-        {"img":"src/assets/img/ia_100000010.jpg","title":"有心漫步者联名蓝牙耳机迷你运动女生同款","txt":"￥88.80","sale":"已售600+件"},
-        {"img":"src/assets/img/ia_100000015.jpg","title":"耳机优先女生高颜值半入耳式高音适用oppo","txt":"￥69.90","sale":"已售30000+件"},
-        {"img":"src/assets/img/ia_100000012.jpg","title":"利威朗ELA2国潮女生小巧无线蓝牙耳机头戴式","txt":"￥20.80","sale":"已售8000+件"},
-        {"img":"src/assets/img/ia_100000013.jpg","title":"蓝牙耳机真无线超长续航隐形降噪","txt":"￥185.00","sale":"已售8000+件"},
-        {"img":"src/assets/img/ia_100000014.jpg","title":"【李佳琪推荐】蓝牙耳机2021年新款无线高端","txt":"￥88.00","sale":"已售1000+件"},
-        {"img":"src/assets/img/ia_100000011.jpg","title":"原装正品耳机 华为p30pronova","txt":"￥19.90","sale":"已售1000+件"}
+        {"id":0,"img":"src/assets/img/ia_100000000.jpg","title":"原装正品耳机适用华为type-c接口","txt":"￥13.80","sale":"已售6000+件"},
+        {"id":1,"img":"src/assets/img/ia_100000001.jpg","title":"兰士顿D4重低音炮四核双动圈耳机入耳式","txt":"￥59.00","sale":"已售6200+件"},
+        {"id":2,"img":"src/assets/img/ia_100000002.jpg","title":"原装苹果AirPods 2代无线蓝牙耳机配充电盒","txt":"￥138.88","sale":"已售1100+件"},
+        {"id":3,"img":"src/assets/img/ia_100000003.jpg","title":"已销售160万条质量有保障兰士顿原装有线耳机","txt":"￥108.88","sale":"已售200+件"},
+        {"id":4,"img":"src/assets/img/ia_100000004.jpg","title":"vivo type-C降噪煮面学习睡眠耳机","txt":"￥158.80","sale":"已售200+件"},
+        {"id":5,"img":"src/assets/img/ia_100000013.jpg","title":"原装正品耳机适用华为TYPE-C接口有线入耳式","txt":"￥180.88","sale":"已售4600+件"},
+        {"id":6,"img":"src/assets/img/ia_100000006.jpg","title":"李佳琪推荐新款降噪无线蓝牙耳机","txt":"￥68.80","sale":"已售2000+件"},
+        {"id":7,"img":"src/assets/img/ia_100000007.jpg","title":"倍思真无线运动跑步紫色蓝牙耳机","txt":"￥29.80","sale":"已售50000件"},
+        {"id":8,"img":"src/assets/img/ia_100000008.jpg","title":"官方正品2022新款无线蓝牙耳机","txt":"￥158.80","sale":"已售600+件"},
+        {"id":9,"img":"src/assets/img/ia_100000009.jpg","title":"【官方推荐 月销3万】漫步者耳机","txt":"￥109.90","sale":"已售10000+件"},
+        {"id":10,"img":"src/assets/img/ia_100000010.jpg","title":"有心漫步者联名蓝牙耳机迷你运动女生同款","txt":"￥88.80","sale":"已售600+件"},
+        {"id":11,"img":"src/assets/img/ia_100000015.jpg","title":"耳机优先女生高颜值半入耳式高音适用oppo","txt":"￥69.90","sale":"已售30000+件"},
+        {"id":12,"img":"src/assets/img/ia_100000012.jpg","title":"利威朗ELA2国潮女生小巧无线蓝牙耳机头戴式","txt":"￥20.80","sale":"已售8000+件"},
+        {"id":13,"img":"src/assets/img/ia_100000013.jpg","title":"蓝牙耳机真无线超长续航隐形降噪","txt":"￥185.00","sale":"已售8000+件"},
+        {"id":14,"img":"src/assets/img/ia_100000014.jpg","title":"【李佳琪推荐】蓝牙耳机2021年新款无线高端","txt":"￥88.00","sale":"已售1000+件"},
+        {"id":15,"img":"src/assets/img/ia_100000011.jpg","title":"原装正品耳机 华为p30pronova","txt":"￥19.90","sale":"已售1000+件"}
     ],
     
     "zhumianList":[
@@ -449,7 +468,14 @@
         {"id":20,"img":"src/assets/img/ia_100000000416.jpg","head":"src/assets/img/ia_300000028.jpg","title":"摸金天师","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"二十岁那年我因为贪财收了一件不该收的古董，从那以后，为了活命，我不得不一次次出入那些对于活人来说十死无生的禁地。秦岭大山里的墓葬群，西北戈壁中的无人区，浩瀚深海夏的失落遗迹，雪域高原上的死亡禁区...","label":"有声书","name":"金葫芦国学","record":"9.5","ding":"4.4万","num":"58"},
         {"id":21,"img":"src/assets/img/ia_100000000280.jpeg","head":"src/assets/img/ia_300000008.jpg","title":"《鬼谷子》原文朗读","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"鬼谷子：用现代思维解读国学经验，传授处世谋略，古为今用，成就人生，欲成大事者必读，生活职场家庭感情，处处都需要的说话技巧","label":"女频小说","name":"金葫芦国学","record":"9.5","ding":"4.4万","num":"58"},
         {"id":22,"img":"src/assets/img/ia_100000000280.jpeg","head":"src/assets/img/ia_300000008.jpg","title":"王的女人谁敢动","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"剧情跌宕起伏，超乎你的想象力，交错的时空，古代与现代智慧的碰撞和摩擦，古代同现代思想的并立与对立...处理的好，你能看到一个奇特而让你悸动的故事，你会说：哎，如果我出生在那个时代，我会怎么怎么做，怎么怎么去说，我会让古人看看现代人思想是如何让他们惊叹的。","label":"凡尔赛","name":"金葫芦国学","record":"9.9","ding":"4万","num":"775"},
-        {"id":23,"img":"src/assets/img/ia_100000000200.jpeg","head":"src/assets/img/ia_300000008.jpg","title":"（全集免费）少帅夫人她又美又飒 |军痞少帅VSA女主","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"成亲前：顾廷军将叶海棠压在船舱里：“敢爬我的船，自己选个死法吧！”成亲后：顾廷军跪在搓衣板上给叶海棠捏腿：“媳妇儿，我这力道可还行？”.....","label":"有声书","name":"金葫芦国学","record":"9.5","ding":"4.4万","num":"58"}
+        {"id":23,"img":"src/assets/img/ia_100000000200.jpeg","head":"src/assets/img/ia_300000008.jpg","title":"（全集免费）少帅夫人她又美又飒 |军痞少帅VSA女主","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"成亲前：顾廷军将叶海棠压在船舱里：“敢爬我的船，自己选个死法吧！”成亲后：顾廷军跪在搓衣板上给叶海棠捏腿：“媳妇儿，我这力道可还行？”.....","label":"有声书","name":"金葫芦国学","record":"9.5","ding":"4.4万","num":"58"},
+        {"id":24,"img":"src/assets/img/ia_100000008.webp","head":"src/assets/img/ia_300000008.jpg","title":"周易八卦，易经入门 |超级记忆法快速学习","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"快速记忆周易八卦","label":"个人成长","name":"金葫芦国学","record":"9.5","ding":"4.4万","num":"58"},
+        {"id":25,"img":"src/assets/img/ia_100000010.webp","head":"src/assets/img/ia_300000009.jpg","title":"《鬼谷子》原文朗读","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"《鬼谷子》据中华书局","label":"历史","name":"有声的紫禁","record":"9.5","ding":"4.4万","num":"58"},
+        {"id":26,"img":"src/assets/img/ia_100000011.webp","head":"src/assets/img/ia_300000010.jpg","title":"安全警长拉布拉多 |幼儿安全科普","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"孩子的安全，我们来守护","label":"宝贝安全","name":"时代文化","record":"9.5","ding":"4.4万","num":"58"},
+        {"id":27,"img":"src/assets/img/ia_100000012.webp","head":"src/assets/img/ia_300000011.jpg","title":"【失眠小姐】当所有的等待与光阴无关的时候","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"专辑：失眠小姐","label":"个人成长","name":"一刀苏苏","record":"9.5","ding":"4.4万","num":"58"},
+        {"id":28,"img":"src/assets/img/ia_100000013.webp","head":"src/assets/img/ia_300000012.jpg","title":"摸金天师","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"三年寻龙，十年点穴","label":"悬疑","name":"夏雨嫣","record":"9.5","ding":"4.4万","num":"58"},
+        {"id":29,"img":"src/assets/img/ia_100000014.webp","head":"src/assets/img/ia_300000013.jpg","title":"《鬼谷子》原文朗读","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"《鬼谷子》原文朗读，由白云出轴录制","label":"个人成长","name":"静境","record":"9.5","ding":"4.4万","num":"58"},
+        {"id":30,"img":"src/assets/img/ia_100000015.webp","head":"src/assets/img/ia_300000014.jpg","title":"王的女人谁敢动","txt":"用超级记忆法快速学习记忆超级记忆法","play":"1.2万","renqi":"近期播放超112万","introduce":"北慕国战神的一夜奇遇，她从此无处可逃。本书由有声读物授权播出，正版免费。当前已经赶上坐这进度，由原来的每天五集改到每天一集！喜欢请关注主播哦~","label":"个人成长","name":"有声的紫禁江南易林周易","record":"9.5","ding":"4.4万","num":"58"}
     ],
     "suibianList1":[
         {"id":0,"img1":"src/assets/img/ia_100000035.webp","txt1":"格局（成功人士的秘籍）","txt2":"拿破仑巴菲特卡耐基曾国藩马云","listen":"20.32亿","people":"882"},
@@ -482,5 +508,31 @@
         {"id":11,"img":"src/assets/img/ia_100000046.webp","head":"src/assets/img/ia_300000019.jpg","title":"断舍离（全5册） |山下英子 |影响稻盛和夫、张德芬的减法哲学", "play":"392.4万", "introduce":"理论与实践让你马上行动起来，思维方式的不同影响着我们生活和工作的方方面面，而你有充分的机会与可能扭转自己的思维方式，改变前进的方向","label":"个人成长","name":"一个志远","record":"9.7","ding":"6.1万"},
         {"id":12,"img":"src/assets/img/ia_100000047.webp","head":"src/assets/img/ia_300000020.jpg","title":"有本事 |一个人有本事，才是靠得住的财富 |冯唐新作", "play":"163.6万", "introduce":"从身到心灵，进阶实现人生自由。断舍离，让心灵轻盈到不可思议的精神修行书。引爆网络的新型生活理念，风靡全亚洲的轻松人生观，1000万人正在用“断舍离”改变自己的生活，你呢！","label":"个人成长","name":"高高国际——电子书","record":"8.8","ding":"1.0万"},
         {"id":13,"img":"src/assets/img/ia_100000048.webp","head":"src/assets/img/ia_300000021.jpg","title":"洛克菲勒留给儿子的38封信", "play":"42.1万", "introduce":"一个人有本事，才是靠得住的财富。冯唐新作，一本写在人生转折点的前行之作，写给所有想靠真本事立身、成事的年轻人，剖析自身种种经历，读懂处世淡定从容的智慧。","label":"个人成长","name":"喜点","record":"9.7","ding":"42.3万","num":"52"}
+    ],
+    "bokeData":[
+        {"id":0,"img":"src/assets/img/ia_100000035.webp", "name":"怡莱电台", "play":"1899","time":"01:12:00","tit":"425.人生中的那些贵人","txt":"“主播：小伟、阿达、阎的CO ； 封面：阿达 ； 后期：小伟”"},
+        {"id":1,"img":"src/assets/img/ia_300000008.jpg", "name":"三角铁", "play":"624","time":"52:42","tit":"河边的野案子里打出来多少个台球皇帝","txt":"“微信公众号：春典”"},
+        {"id":2,"img":"src/assets/img/ia_300000009.jpg", "name":"麦客说", "play":"6866","time":"01:22:05","tit":"68.沉思录 | 年轻时释怀与淡泊是没希望的/“知行合一”","txt":"33.如何看待“年轻时就释怀和淡泊是没有希望的”这句话？"},
+        {"id":3,"img":"src/assets/img/ia_300000010.jpg", "name":"咸柠七 | 人间清醒", "play":"344","time":"44:45","tit":"vol.87 | 昨日的世界与战争中的普通人","txt":"【导语】年初，我终于读完了茨威格那令人心碎的巨著《昨日的世界》"},
+        {"id":4,"img":"src/assets/img/ia_300000011.jpg", "name":"东成西长", "play":"227","time":"44:45","tit":"vol.62 | 费嘉：他见证了中国图画书编辑出版的发展历程","txt":"“节目简介 少年儿童出版社自身编辑、国际插画大赛评委、绘本研究...”"},
+        {"id":5,"img":"src/assets/img/ia_300000012.jpg", "name":"关雅荻·共创播客", "play":"4.1万","time":"42:17","tit":"体育电影中让摄影机距离演员尽可能近 - 关雅荻","txt":"“关雅荻通过线上互动的语音流互动平台，创立的不同主题的系列”"},
+        {"id":6,"img":"src/assets/img/ia_300000013.jpg", "name":"来都来了 | 听了会感觉世界更美好", "play":"1389","time":"16:24","tit":"No.95 - 生活洪流中的洋葱与三分钟热度","txt":"久违啦听众朋友们！停更的这一个月里，丸仔与Nicole各自快乐舒心"},
+        {"id":7,"img":"src/assets/img/ia_300000014.jpg", "name":"真墨会客厅", "play":"159","time":"55:49","tit":"E20 对话金融机构产品经理 Kirua：以客户为中心，财富为趋势","txt":"大家好，《真呈会客厅》是一档由望岳投资推出的播客。"},
+        {"id":8,"img":"src/assets/img/ia_300000015.jpg", "name":"折箩电台", "play":"159","time":"42:57","tit":"VOL.129 隔夜折箩 励志与科幻老电影","txt":"励志与科幻老电影"},
+        {"id":9,"img":"src/assets/img/ia_300000016.jpg", "name":"主播与诗", "play":"233","time":"42:57","tit":"031 9号酒馆 Joyce、Damei:迪兰·托马斯","txt":"“主播与诗 由播客先声作为主理人，每期都会邀请主播读诗的节目。”"},
+        {"id":10,"img":"src/assets/img/ia_300000017.jpg", "name":"一路飞的牛，旅途中的乐趣", "play":"1429","time":"04:17","tit":"金灿灿的王宫又土又豪---庚子印度行（迈索尔上）","txt":"轻奢自驾，历史美食，有趣有料，这才是我们的旅行方式，一路探古。"},
+        {"id":11,"img":"src/assets/img/ia_300000018.jpg", "name":"真八卦 | 深度拆台", "play":"163","time":"16:21","tit":"","txt":"“主播：小伟、阿达、阎的CO ； 封面：阿达 ； 后期：小伟”"},
+        {"id":12,"img":"src/assets/img/ia_300000019.jpg", "name":"《X电台》", "play":"9174","time":"20:02","tit":"贾静雯被催生四胎，没耐心带孩子的修杰楷到底想干什么","txt":"主播：“八一八”佳倩，“算一卦”洛宾 聊聊贾静雯、大S，小S"},
+        {"id":13,"img":"src/assets/img/ia_300000020.jpg", "name":"老talk消息", "play":"4554","time":"31:36","tit":"有毒的朋友 | 成年人不说再见","txt":"“大家好，《真呈会客厅》是一档由望岳投资推出的播客。”"},
+        {"id":14,"img":"src/assets/img/ia_300000021.jpg", "name":"小高的岛", "play":"70","time":"45:10","tit":"Vol.68 | 累了，但愿此生不再找房子","txt":"【主播与诗】 由播客先声作为主理人，每期都会邀请主播读诗的节目"},
+        {"id":15,"img":"src/assets/img/ia_300000022.jpg", "name":"亦庄亦斜 茹古涵居", "play":"368","time":"31:01","tit":"每个人心中的玄武门之变","txt":"如果没有玄武门、罗生门、水门、拉链门......只有哆啦A梦的任意门。"}
+    ],
+    "videoList":[
+        {"id":0,"video":"http://iotfirmware-testing.cloudentify.com/multimediaResource/mediaAddress/M202101181613419769.MP4"},
+        {"id":1,"video":"../../public/videos/index/02.mp4"},
+        {"id":2,"video":"../../public/videos/index/03.mp4"},
+        {"id":3,"video":"../../public/videos/index/04.mp4"},
+        {"id":4,"video":"../../public/videos/index/05.mp4"},
+        {"id":5,"video":"../../public/videos/index/06.mp4"}
     ]
 }

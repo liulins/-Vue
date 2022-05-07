@@ -24,7 +24,7 @@
                                             {{k.txt}}
                                         </p>
                                     </div>
-                                    <span class="right">
+                                    <span class="right" @click="subscription">
                                         + 关注
                                     </span>
                                 </li>
@@ -102,6 +102,132 @@
                                 </li>
                             </ul>
                         </div>
+                        <div v-if="active === 5">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList6" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 6">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList7" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 7">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList8" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 8">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList9" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 9">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList10" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 10">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList11" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-if="active === 11">
+                            <ul class="list">
+                                <li v-for="(k,index) in  classifyList12" :key="index">
+                                    <img :src="k.img"/>
+                                    <div class="middle">
+                                        <p class="middle_1">
+                                            {{k.title}}
+                                        </p>
+                                        <p class="middle_2">
+                                            {{k.txt}}
+                                        </p>
+                                    </div>
+                                    <span class="right">
+                                        + 关注
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
                     </template>
                 </van-tree-select>
             </div>
@@ -109,25 +235,7 @@
     </div>
 </template>
 <style lang="less" scoped>
-    // @import url(../assets/css/recommend.css);
-    /deep/ .van-search{
-        width: 100%;
-        height: 8rem;
-    }
-    /deep/ .van-search__content{
-        height: 5rem;
-        line-height: 5rem;
-    }
-    /deep/ .van-field__control{
-        height: 5rem;
-        font-size: 2rem;
-    }
-    /deep/ .van-field__left-icon .van-icon {
-        font-size: 3rem;
-        float: left;
-        margin-top: 1.7rem;
-        color: #DE4936;
-    }
+    @import url(../assets/css/recommend.css);
     /deep/ .van-field__body .van-icon{
         font-size: 3rem;
     }
@@ -141,10 +249,18 @@
     /deep/ .van-sidebar-item--select, .van-sidebar-item--select:active{
         color: #DE4936;
     }
+    /deep/  .van-dialog{
+        width: 42rem;
+        height: 27rem;
+    }
+    /deep/ .van-dialog__message{
+        font-size: 2rem;
+    }
 </style>>
 <script>
 import {Test1} from '../request/api.js'
 import {Test2} from '../request/api.js'
+import { Dialog } from 'vant';
 import { ref } from 'vue';
 export default {
     data(){
@@ -188,6 +304,13 @@ export default {
         this.getList3()
         this.getList4()
         this.getList5()
+        this.getList6()
+        this.getList7()
+        this.getList8()
+        this.getList9()
+        this.getList10()
+        this.getList11()
+        this.getList12()
     },
     methods: {
         // 获取数据
@@ -227,11 +350,56 @@ export default {
                 _this. classifyList5 = res.data.classify5
             })
         },
+        getList6(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList6 = res.data.classify6
+            })
+        },
+        getList7(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList7 = res.data.classify7
+            })
+        },
+        getList8(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList8 = res.data.classify8
+            })
+        },
+        getList9(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList9 = res.data.classify9
+            })
+        },
+        getList10(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList10 = res.data.classify10
+            })
+        },
+        getList11(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList11 = res.data.classify11
+            })
+        },
+        getList12(){
+            var _this = this;
+            Test2().then(function(res){
+                _this. classifyList12 = res.data.classify12
+            })
+        },
         // 返回上一级
         back(){
             this.$router.go(-1)
         },
-        
+        // 订阅消息弹框
+        subscription(){
+            Dialog({ message: '关注成功！' });
+        }
     },
 }
 </script>

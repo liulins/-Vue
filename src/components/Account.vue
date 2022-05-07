@@ -2,15 +2,15 @@
 <!-- 账号页面 -->
     <div>
       <div class="play_top2">
-        <img src="src/assets/img/38.png" class="play_top_back"  @click="back"/>
+        <img src="src/assets/img/41.png" class="play_top_back"  @click="back"/>
         <div class="play_top_anniu">
           <a href="##" :class="index == 0 ? 'play_top_anniu1' : ''" @click="dian">我的</a>
-          <a href="##" :class="index == 1 ? 'play_top_anniu1' : ''" @click="dians">消息</a>
+          <a href="##" :class="index == 1 ? 'play_top_anniu1' : ''" @click="dians">设置</a>
         </div>
         <div class="play_boxx">
             <div class="swiper">
               <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="height:106rem;overflow:auto;background-image: linear-gradient(rgb(243 236 133), rgb(255 253 223), rgb(249 244 171))">
+                  <div class="swiper-slide" style="height:113rem;overflow:auto;background-image: linear-gradient(rgb(246 224 182), rgb(255, 253, 223), rgb(249, 244, 171))">
                     <div class="swiper1_bg">
                       <p class="swiper1_bg_p1">
                         <span class="swiper1_bg_p1_imgs">
@@ -56,7 +56,7 @@
                         <img src="src/assets/img/播放历史.png"/>
                         <span>历史</span>
                       </span>
-                      <span class="swiper1_bg3_box1">
+                      <span class="swiper1_bg3_box1" @click="shopCar">
                         <img src="src/assets/img/购物车.png"/>
                         <span>购物车</span>
                       </span>
@@ -83,7 +83,7 @@
                           <a href="##">娱乐周边</a>
                         </div>
                         <div class="swiper1_bg4_con_txt">
-                          <div class="swiper1_bg4_con_txt_box" v-for="(k,index) in accountList" :key="index">
+                          <div class="swiper1_bg4_con_txt_box" v-for="(k,index) in accountList" :key="index" @click="jumpPage(k.id)">
                             <img :src="k.img"/>
                             <p class="swiper1_bg4_con_txt_box_p1">{{k.title}}</p>
                             <p class="swiper1_bg4_con_txt_box_p2">
@@ -95,29 +95,65 @@
                       </div>
                     </div>
                   </div>  
-                  <div class="swiper-slide" style="height:106rem;overflow:auto;">
-                    <img src="src/assets/img/login10.png"/>
-                    <div class="white">
-                      <img class="white_logo" src="src/assets/img/login2.png"/>
-                      <p class="white_tit">欢迎登录有声读物~</p>
-                      <p class="white_txt1">未注册的用户将自动注册</p>
-                      <p class="white_put1">
-                        <img src="src/assets/img/login8.png" class="white_put1_img1"/>
-                        <input type="text" placeholder="请输入手机号"/>
+                  <div class="swiper-slide" style="height:113rem;overflow:auto;background:#eee;">
+                    <div class="accountLogin1">
+                      <p class="accountLogin1_tit">
+                        我的信息
                       </p>
-                      <p class="white_put1">
-                        <img src="src/assets/img/login8.png" class="white_put1_img1"/>
-                        <input type="password" placeholder="请输入密码"/>
-                      </p>
-                      <p class="white_put2">
-                        <input type="checkbox"/>
-                        <span>我已阅读并同意《有声读物用户协议》和隐私政策</span>
-                      </p>
-                      <p class="white_btn">
-                        <button>登录</button>
-                      </p>
+                      <van-cell-group>
+                        <van-cell title="账号与安全" is-link @click="security"/>
+                        <van-cell title="隐私管理" is-link to="/account/admin/privacyManage"/>
+                        <van-cell title="收听偏好设置" is-link  to="/account/admin/listenLike"/>
+                      </van-cell-group>
                     </div>
-                    <img src="src/assets/img/login12.png" class="white_left"/>
+                    <div class="accountLogin1">
+                      <p class="accountLogin1_tit">
+                        播放下载设置
+                      </p>
+                      <van-cell-group>
+                        <van-cell title="音质选择" is-link />
+                        <van-cell center title="记住上次播放进度">
+                          <template #right-icon>
+                            <van-switch v-model="checked1" size="16" />
+                          </template>
+                        </van-cell>
+                        <van-cell center title="被其他应用中断后继续播放">
+                          <template #right-icon>
+                            <van-switch v-model="checked2" size="16" />
+                          </template>
+                        </van-cell>
+                        <van-cell center title="禁止部分蓝牙设备连接后自动播放">
+                          <template #right-icon>
+                            <van-switch v-model="checked3" size="16" />
+                          </template>
+                        </van-cell>
+                        <van-cell center title="允许非WIFI网络下载">
+                          <template #right-icon>
+                            <van-switch v-model="checked4" size="16" />
+                          </template>
+                        </van-cell>
+                        <van-cell center title="哄睡模式" label="收听儿童分类节目时用“哄睡模式”代替“定时关闭”">
+                          <template #right-icon>
+                            <van-switch v-model="checked5" size="16" />
+                          </template>
+                        </van-cell>
+                      </van-cell-group>
+                    </div>
+                    <div class="accountLogin1">
+                      <p class="accountLogin1_tit">
+                        关于
+                      </p>
+                      <van-cell-group>
+                        <van-cell title="检查更新" is-link />
+                        <van-cell title="隐私政策" is-link />
+                        <van-cell title="隐私政策摘要" is-link />
+                        <van-cell title="儿童隐私政策" is-link />
+                        <van-cell title="关于有声读物" is-link />
+                      </van-cell-group>
+                    </div>
+                    <div class="accountLogin2">
+                      <button @click="remoteLogin">退出登录</button>
+                    </div>
                   </div>
               </div>
             </div>
@@ -125,10 +161,14 @@
     </div>
     </div>
 </template>
-<style>
+<style lang="less" scoped>
     @import url(../assets/css/demo01.css);
     @import url(../assets/css/account.css);
     @import url(../assets/css/homepage.css);
+    
+    /deep/ .van-switch--on{
+      background-color: #ffa600;
+    }
 </style>
 <script>
       import "../assets/js/swiper.min.js"
@@ -140,17 +180,18 @@
         index:0,
         kkl:'',
         accountList:[],
+        checked1:true,
+        checked2:false,
+        checked3:true,
+        checked4:false,
+        checked5:false,
       };
     },
     methods: {
-      // anniu(){
-      //   console.log(this.activeIndex);
-      // },
       getData(){
             var _this = this;
             Test1().then(function(res){
                 _this.accountList = res.data.accountLists
-                console.log(_this.accountList)
             })
         },
       dian(){
@@ -162,9 +203,28 @@
         this.kkl.slideTo(1,300,false)
       },
       // 返回上一级
-        back(){
-            this.$router.go(-1)
-        }
+      back(){
+          this.$router.go(-1)
+      },
+      jumpPage(id){
+        this.$router.push({
+            path:'/account/shopdetail',
+            query:{
+                detail:id,
+            },
+        })
+      },
+      shopCar(){
+        this.$router.push("/account/shopCar")
+      },
+      remoteLogin(){
+        localStorage.removeItem("username")
+        localStorage.removeItem("password")
+        this.$router.push('/login')
+      },
+      security(){
+
+      }
     },
     mounted() {
       this.getData();
@@ -187,5 +247,11 @@
       });
       this.kkl = myswiper;
     },
+    created(){
+      // 判断用户是否登录
+      if(!localStorage.getItem("username") && !localStorage.getItem("password")){
+          this.$router.push('/login')
+      }
+    }
   };
 </script>
