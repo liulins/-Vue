@@ -67,12 +67,14 @@ export default {
             })
         },
         subscription(){
+            let dingyue_box2_span2 = document.getElementsByClassName("dingyue_box2_span2")[0]
             Dialog.alert({
                 message: '订阅成功！',
                 theme: 'round-button',
             }).then(() => {
             // on close
             });
+            dingyue_box2_span2.innerHTML = "已订阅"
         },
         changeData(){
             $(".recommend_box2_img1").css("animation","xuanzhuan 0.5s forwards running");

@@ -77,10 +77,10 @@
         {"id":"5","img2":"src/assets/img/ia_100000000464.jpg","title":"有声书","txt":"林轩_乐天","img":"src/assets/img/ia_100000003011.webp","p1":"来，一起快乐吧！","num":"649"}
     ],
     "videoList3":[
-        {"img2":"src/assets/img/ia_100000003988.webp","title":"互动","txt":"青衣天","img":"src/assets/img/ia_100000003988.webp","p1":"温暖心动男声","num":"310"},
-        {"img2":"src/assets/img/ia_100000000456.jpg","title":"翻唱","txt":"9歌_","img":"src/assets/img/ia_100000003998.webp","p1":"这姑娘好哇","num":"352"},
-        {"img2":"src/assets/img/ia_100000000457.jpg","title":"互动","txt":"大逗逗_熊猫","img":"src/assets/img/ia_100000003999.webp","p1":"可惜我是白羊座","num":"733"},
-        {"img2":"src/assets/img/ia_100000000460.jpg","title":"翻唱","txt":"宠妮毛毛的猫猫","img":"src/assets/img/ia_100000004000.webp","p1":"因你而唱❤感受","num":"189"}
+        {"id":"6","img2":"src/assets/img/ia_100000003988.webp","title":"互动","txt":"青衣天","img":"src/assets/img/ia_100000003988.webp","p1":"温暖心动男声","num":"310"},
+        {"id":"7","img2":"src/assets/img/ia_100000000456.jpg","title":"翻唱","txt":"9歌_","img":"src/assets/img/ia_100000003998.webp","p1":"这姑娘好哇","num":"352"},
+        {"id":"8","img2":"src/assets/img/ia_100000000457.jpg","title":"互动","txt":"大逗逗_熊猫","img":"src/assets/img/ia_100000003999.webp","p1":"可惜我是白羊座","num":"733"},
+        {"id":"9","img2":"src/assets/img/ia_100000000460.jpg","title":"翻唱","txt":"宠妮毛毛的猫猫","img":"src/assets/img/ia_100000004000.webp","p1":"因你而唱❤感受","num":"189"}
     ],
     "ruzhanList1":[
         {"id":"0","img1":"src/assets/img/ia_100000012.webp","img2":"src/assets/img/ia_100000009.webp","img3":"src/assets/img/ia_100000010.webp","txt1":"重生八零，媳妇有点辣 |免费多人有声剧","txt2":"一剑独尊（叶璇叶灵 |有声的紫禁 |男女双播）","txt3":"大奉打更人 |头陀渊 |搞笑&修仙","tit":"上亿播放量的经典有声小说"},
@@ -528,11 +528,15 @@
         {"id":15,"img":"src/assets/img/ia_300000022.jpg", "name":"亦庄亦斜 茹古涵居", "play":"368","time":"31:01","tit":"每个人心中的玄武门之变","txt":"如果没有玄武门、罗生门、水门、拉链门......只有哆啦A梦的任意门。"}
     ],
     "videoList":[
-        {"id":0,"video":"http://iotfirmware-testing.cloudentify.com/multimediaResource/mediaAddress/M202101181613419769.MP4"},
+        {"id":0,"video":"../../public/videos/index/01.mp4"},
         {"id":1,"video":"../../public/videos/index/02.mp4"},
         {"id":2,"video":"../../public/videos/index/03.mp4"},
         {"id":3,"video":"../../public/videos/index/04.mp4"},
         {"id":4,"video":"../../public/videos/index/05.mp4"},
-        {"id":5,"video":"../../public/videos/index/06.mp4"}
+        {"id":5,"video":"../../public/videos/index/06.mp4"},
+        {"id":6,"video":"../../public/videos/index/07.mp4"},
+        {"id":7,"video":"../../public/videos/index/08.mp4"},
+        {"id":8,"video":"../../public/videos/index/05.mp4"},
+        {"id":9,"video":"../../public/videos/index/06.mp4"}
     ]
 }

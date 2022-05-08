@@ -58,9 +58,9 @@
 
 /* 发现子路由----视频页面 */
 .discover_con{width: 96%;height: 102.8rem;border: 0px solid red;float: left;padding: 1rem;overflow: auto;margin-left: 0.5rem;}
-.shipinfaxianss{column-count: 2;column-width: 100rem; margin: 0 auto; column-gap: 2rem;page-break-inside: avoid;
-    break-inside: avoid;float: left;}
-.shipinfaxian_box1{float: left; width: 43%;border: 0px solid red;margin-left: 1.4rem;background: rgb(252, 252, 233);border-radius: 3rem;margin-bottom: 2rem;padding: 1rem;}
+.shipinfaxianss{column-count: 2;margin: 0 auto; column-gap: 0rem;page-break-inside: avoid;
+    break-inside: avoid;float: left;width: 100%;}
+.shipinfaxian_box1{float: left; width: 90%;border: 0px solid red;background: rgb(252, 252, 233);border-radius: 3rem;margin-bottom: 2rem;padding: 1rem;}
 .shipinfaxian_box1_imgs{width: 100%;border: 0px solid blue;position: relative;}
 .shipinfaxian_box1_img{width: 100%;border-radius: 3rem 3rem 0rem 0rem;}
 .shipinfaxian_box1_imgs_p1{width: 100%;height: 6rem;position: absolute;bottom: 0;line-height: 6rem;}

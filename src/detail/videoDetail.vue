@@ -1,8 +1,10 @@
 <template>
     <div>
+        <div class="re_d-nav" style="background:#333;float:none;margin-top: -1.5rem;height:10rem;">
+            <img src="src/assets/img/38.png" class="re_d-nav_img1" @click="back"/>
+            <img src="src/assets/img/39.png" class="re_d-nav_img2"/>
+        </div>
         <div class="videos">
-            <p>{{a}}</p>
-            
             <video-player 
                         class="video-player vjs-custom-skin"
                         ref="videoPlayer"
@@ -18,6 +20,7 @@
     </div>
 </template>
 <style lang="less" scoped>
+@import url(../assets/css/recommend.css);
   .videos {
     position: relative;
     // 采用/deep/ 实现样式穿透
@@ -52,10 +55,7 @@ export default {
     name: 'Videos',
     props: ['video', 'index'],
     data() {
-        // console.log(this.videoList[this.videoListId].video);
-        // let a='';
         return {
-            
             a:"",
             playerOptions: {
                 autoplay: true, // 如果true,浏览器准备好时开始回放。
@@ -66,10 +66,7 @@ export default {
                 fluid: true, // 当true时，Video.js player将拥有流体大小。换句话说，它将按比例缩放以适应其容器。
                 sources: [
                     {
-                        // src: "../../public/videos/index/05.mp4",
-                        // src:this.videoList[this.videoListId].video,
-                        // src:this.a,
-                        src:this.a,
+                        src:"",
                         type: 'video/mp4', // 类型
                     },
                 ],
@@ -98,10 +95,10 @@ export default {
             Test1().then(function(res) {
                 // res就是请求成功之后的到的数据
                 _this.videoList = res.data.videoList
-                console.log(_this.videoList[_this.$route.query.detail].video)
-                _this.a = _this.videoList[0].video;
+                console.log(res.data.videoList)
+                _this.a = _this.videoList[_this.$route.query.detail].video;
+                _this.playerOptions['sources'][0]['src'] = _this.videoList[_this.$route.query.detail].video;
             })
-            console.log(111);
         },
         onPlayerPause(player){
             console.log(player)
@@ -124,17 +121,17 @@ export default {
             } else {
                 this.player.play();
             }
+        },
+        back(){
+            this.$router.go(-1)
         }
     },
 
-        mounted(){
+    mounted(){
          let _this = this;
         _this.getData()
-
-        // [1,2]
         console.log(_this.$route.query.detail)
         // console.log(_this.videoList[_this.$route.query.detail].video)
-        
     },
     computed:{
         player(){

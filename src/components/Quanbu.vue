@@ -398,7 +398,9 @@ export default {
         },
         // 订阅消息弹框
         subscription(){
+            let right = document.getElementsByClassName("right")[0]
             Dialog({ message: '关注成功！' });
+            right.innerHTML = "已关注"
         }
     },
 }

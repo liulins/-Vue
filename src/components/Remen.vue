@@ -46,7 +46,7 @@
         </div>
         <!-- 4组循环 -->
         <ul>
-            <li class="tuijian_video_box1" v-for="(k,index) in arrList2" :key="index" >
+            <li class="tuijian_video_box1" v-for="(k,index) in arrList2" :key="index" @click="jump(k.id)">
                 <img :src="k.img" class="tuijian_video_box1_img1" />
                 <div class="tuijian_video_box1_mes">{{k.title}}</div>
                 <p class="tuijian_video_box1_p1">{{k.txt}}</p>
@@ -165,7 +165,7 @@
             </div>
         </div>
         <!-- 数组循环 -->
-        <VideoView class="tuijian_video" style="margin-top:0rem;margin-left:-1.5rem;width:100%;"></VideoView>
+        <!-- <VideoView class="tuijian_video" style="margin-top:0rem;margin-left:-1.5rem;width:100%;"></VideoView> -->
     </div>
 </template>
 <script>

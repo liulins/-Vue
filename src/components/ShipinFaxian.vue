@@ -1,8 +1,8 @@
 <template id="shipinfaxian">
     <div>
-        <div class="shipinfaxianss">
+        <ul class="shipinfaxianss">
             <!-- 视频发现 -->
-            <div class="shipinfaxian_box1" v-for="(k,index) in arrList12" :key="index">
+            <li class="shipinfaxian_box1" v-for="(k,index) in arrList12" :key="index">
                 <div class="shipinfaxian_box1_imgs">
                     <img :src="k.img" class="shipinfaxian_box1_img"/>
                     <p class="shipinfaxian_box1_imgs_p1">
@@ -19,8 +19,8 @@
                     <span class="shipinfaxian_box1_p2_span2">{{k.play}}</span>
                     <img src="src/assets/img/49.png" class="shipinfaxian_box1_p2_img2"/>
                 </p>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
 </template>
 <style>

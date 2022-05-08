@@ -378,6 +378,12 @@ export default {
     };
   },
   methods: {
+     noReloaded(){
+      if (location.href.indexOf("#reloaded") == -1) {
+        location.href = location.href + "#reloaded";
+        window.location.reload();
+      }
+    },
     dian(){
       this.index = 0
       this.kkl.slideTo(0,300,false)
@@ -436,6 +442,7 @@ export default {
     }
   },
   mounted() {
+    this.noReloaded()
     var _this = this;
     var myswiper = new Swiper('.swiper', {
         pagination: '.swiper-pagination',

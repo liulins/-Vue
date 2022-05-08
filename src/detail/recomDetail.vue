@@ -19,15 +19,15 @@
             </div>
             <div class="re_d-grade">
                 <div class="re_d-grade1">
-                    <p class="re_d-grade1_p1">9.5</p>
+                    <p class="re_d-grade1_p1">{{detailList[this.recdetail].record}}</p>
                     <p class="re_d-grade1_p2">评分</p>
                 </div>
                 <div class="re_d-grade1">
-                    <p class="re_d-grade1_p1">9.5亿</p>
+                    <p class="re_d-grade1_p1">{{detailList[this.recdetail].play}}</p>
                     <p class="re_d-grade1_p2">播放量</p>
                 </div>
                 <div class="re_d-grade1">
-                    <p class="re_d-grade1_p1">9.5亿</p>
+                    <p class="re_d-grade1_p1">{{detailList[this.recdetail].ding}}</p>
                     <p class="re_d-grade1_p2">播放量</p>
                 </div>
                 <div class="re_d-grade2">
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="re_d-rec">
-                作者：短线交易之父，指标创建者，最好的交易记录，12哥月从1万做到110万作者：短线交易之父，指标创建者，最好的交易记录，12哥月从1万做到110万作者：短线交易之父，指标创建者，最好的交易记录，12哥月从1万做到110万
+                {{detailList[this.recdetail].introduce}}
             </div>
         </div>
         <div class="re_txt">
@@ -45,21 +45,22 @@
                     <span>全部播放</span>
                 </div>
                 <div class="re_txt_tit_total">
-                    共58集
+                    共{{detailList[this.recdetail].num}}集
                     <img src="src/assets/img/34.png"/>
                 </div>
             </div>
             <div class="re_txt_txt">
                 <ul>
-                    <li class="re_txt_txt_li">
+                    <li class="re_txt_txt_li" v-for="(k,index) in detailData" :key="index">
+                        <span class="re_txt_txt_li_id">{{k.id+1}}</span>
                         <p class="re_txt_txt_li_p1">
-                            祝福大家：赚取暴利，接受亏损,取暴利，接受亏损
+                            {{k.title}}
                         </p>
-                        <span class="re_txt_txt_li_span1">2017-07</span>
+                        <span class="re_txt_txt_li_span1">{{k.date}}</span>
                         <p class="re_txt_txt_li_p2">
                             <span class="re_txt_txt_li_p2_1">
                                 <img src="src/assets/img/22.png"/>
-                                <span>4062</span>
+                                <span>{{k.play}}</span>
                             </span>
                         </p>
                     </li>
@@ -93,6 +94,13 @@ export default {
                 // res就是请求成功之后的到的数据
                 _this.detailList = res.data.recDetail
                 console.log(_this.detailList)
+            })
+        },
+        getDetail(){
+            var _this = this;
+            Test2().then(function(res) {
+                // res就是请求成功之后的到的数据
+                _this.detailData = res.data.booklist1
             })
         },
         back(){
