@@ -78,7 +78,7 @@ import {Test2} from '../request/api.js'
 export default {
     data(){
         return{
-            recdetail:this.$route.query.detail
+            recdetail:this.$route.query.detail,
             detailList:[],
             detailData:[],
         }
